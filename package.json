@@ -1,23 +1,23 @@
 {
-  "name": "grunt-contrib-clean",
+  "name": "grunt-clean",
   "description": "Clean files and folders.",
   "version": "0.5.0",
-  "homepage": "https://github.com/gruntjs/grunt-contrib-clean",
+  "homepage": "https://github.com/favio41/grunt-clean",
   "author": {
-    "name": "Grunt Team",
-    "url": "http://gruntjs.com/"
+    "name": "Favio41",
+    "url": "http://blog.concebe.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gruntjs/grunt-contrib-clean.git"
+    "url": "git://github.com/favio41/grunt-clean.git"
   },
   "bugs": {
-    "url": "https://github.com/gruntjs/grunt-contrib-clean/issues"
+    "url": "https://github.com/favio41/grunt-clean/pulls"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-contrib-clean/blob/master/LICENSE-MIT"
+      "url": "https://github.com/favio41/grunt-clean/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
