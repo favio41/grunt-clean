@@ -1,4 +1,5 @@
-# grunt-contrib-clean [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-clean.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-clean)
+# grunt-clean [(https://github.com/favio41/grunt-clean.git)](https://github.com/favio41/grunt-clean.git) 
+forked from [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-clean.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-clean)
 
 > Clean files and folders. This fork allows to delete files outside of working copy, if options are provided.
 
@@ -57,9 +58,9 @@ clean: ["path/to/dir/one", "path/to/dir/two"]
 
 ```js
 clean: {
-	options:{
-			force: true
-		},
+  options:{
+	force: true
+  },
   build: ["path/to/dir/one", "path/to/dir/two"],
   release: ["path/to/another/dir/one", "path/to/another/dir/two"]
 },
