@@ -47,8 +47,8 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('clean', 'Clean files and folders.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
-      force: grunt.option('force') === true,
-      'no-write': grunt.option('no-write') === true,
+      force: grunt.option('force') === true || grunt.config.get('options.force') === true,
+      'no-write': grunt.option('no-write') === true || grunt.config.get('options.no-write') === true,
     });
 
     grunt.verbose.writeflags(options, 'Options');

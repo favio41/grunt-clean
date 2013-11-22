@@ -1,6 +1,6 @@
 # grunt-contrib-clean [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-clean.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-clean)
 
-> Clean files and folders.
+> Clean files and folders. This fork allows to delete files outside of working copy, if options are provided.
 
 
 
@@ -29,7 +29,7 @@ _Run this task with the `grunt clean` command._
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
 *Due to the destructive nature of this task, always be cautious of the paths you clean.*
-### Options
+### Options (argument option)
 
 #### force
 Type: `Boolean`  
@@ -57,6 +57,9 @@ clean: ["path/to/dir/one", "path/to/dir/two"]
 
 ```js
 clean: {
+	options:{
+			force: true
+		},
   build: ["path/to/dir/one", "path/to/dir/two"],
   release: ["path/to/another/dir/one", "path/to/another/dir/two"]
 },
